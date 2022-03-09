@@ -1,0 +1,4 @@
+JVM   - Java Virtual Machine
+JDK   - Java Development Kit
+JRE   - Java Runtime Environment
+JavaC - Compilador Java

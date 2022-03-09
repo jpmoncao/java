@@ -1,0 +1,12 @@
+IDE:
+  - Integrated development environment
+  
+  - Contém:
+  	• Editor completo;
+  	• Compilador;
+  	• Linker debugger.
+  
+  - Gerador de código.
+  - Ambientes de testes.
+  - Facilita a distribuição através de pacotes.
+  
