@@ -16,7 +16,7 @@ public class App {
             int c;
             for (c = ano_nasc, bissexto = 0; c <= ano_atual; c++) {
 
-                if (c % 4 == 0 && c % 1000 != 0) {
+                if (c % 4 == 0 && c % 100 != 0 || c % 400 == 0) {
                     bissexto = bissexto + 1;
                 }
             }
