@@ -18,7 +18,7 @@ public class App {
         System.out.print("Digite o 4º número: ");
         n4 = input.nextInt();
 
-        soma = (n1 * n1) + (n2 * n2) + (n3 * n3) + (n4 * n4);
+        soma = n1 ^ 2 + n2 ^ 2 + n3 ^ 2 + n4 ^ 2;
         System.out.println("O resultado da soma dos quadrados é: " + soma + ".");
     }
 }
