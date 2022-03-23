@@ -18,7 +18,7 @@ public class App {
         for (c = ano_nasc, bissexto = 0; c <= ano_atual; c++) {
 
             if (c % 4 == 0 && c % 100 != 0 || c % 400 == 0) {
-                bissexto = bissexto + 1;
+                bissexto ++;
             }
         }
         
@@ -26,6 +26,5 @@ public class App {
         
         System.out.println("Você tem " + idade + " anos, " + meses + " meses, " + (dias + bissexto) + " dias ("
                 + dias + " + " + bissexto + " dias de ano bissexto) e aproximadamente " + horas +" horas.");
-        }
     }
 }
