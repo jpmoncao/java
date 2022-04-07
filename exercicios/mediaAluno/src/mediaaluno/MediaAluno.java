@@ -2,31 +2,40 @@ package mediaaluno;
 
 import java.util.Scanner;
 
-public class MediaAluno {
-
+public class MediaAluno {  
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        double nota1, nota2, nota3, nota4, media;
-        String nome;
+        double n1, n2, n3, n4;
         
-        System.out.print("Digite o nome do aluno: ");
-        nome = input.next();
+        System.out.print("Digite a 1ª nota: ");
+        n1 = input.nextDouble();
         
-        System.out.print("Nota do 1º bimestre: ");
-        nota1 = input.nextDouble();
+        System.out.print("Digite a 2ª nota: ");
+        n2 = input.nextDouble();
         
-        System.out.print("Nota do 2º bimestre: ");
-        nota2 = input.nextDouble();
+        System.out.print("Digite a 3ª nota: ");
+        n3 = input.nextDouble();
         
-        System.out.print("Nota do 3º bimestre: ");
-        nota3 = input.nextDouble();
+        System.out.print("Digite a 4ª nota: ");
+        n4 = input.nextDouble();
         
-        System.out.print("Nota do 4º bimestre: ");
-        nota4 = input.nextDouble();
+        double media = (n1+n2+n3+n4) / 4;
+        System.out.print("O aluno teve média de "+media+" e foi");
         
-        media = (nota1 + nota2 + nota3 + nota4) / 4;
-        System.out.println("A média do aluno: "+ nome+" foi "+media+".");
+        if (media < 5) {
+            System.out.println(" REPROVADO.");
+            
+        } else if (media >= 5 && media < 6) {
+            System.out.println(" APROVADO com PROGRESSÃO PARCIAL.");
+            
+        } else if (media >= 6 && media < 8) {
+            System.out.println(" APROVADO.");
+            
+        } else {
+            System.out.println(" APROVADO com EXCELÊNCIA!");
+        }
+        
     }
     
 }
