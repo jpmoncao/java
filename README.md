@@ -56,7 +56,7 @@ Para suporte, mande um email para pedrohjoao44@gmail.com
 
 <p align="center">Índice</p>
 <p align="center">
-  <a href="## 🧮Requisitos">🧮Requisitos, </a><a href="## ✔️Melhorias">✔️Melhorias, </a><a href="## 💻Stack utilizada">💻Stack utilizada, </a><a href="## 🛠 Habilidades">🛠 Habilidades, </a><a href="## 📖Referência">📖Referência, </a><a href="## 🚹 Sobre mim">🚹 Sobre mim, </a><a href="## 🔗 Links">🔗Links e </a><a href="## 📞Suporte">📞Suporte </a>
+  <a href="#requisitos">🧮Requisitos, </a><a href="#%EF%B8%8Fmelhorias">✔️Melhorias, </a><a href="#stack-utilizada">💻Stack utilizada, </a><a href="#-habilidades">🛠 Habilidades, </a><a href="#referência">📖Referência, </a><a href="#-sobre-mim">🚹 Sobre mim, </a><a href="#-links">🔗Links e </a><a href="#suporte">📞Suporte </a>
 </p>
 
 ##
