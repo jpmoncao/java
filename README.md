@@ -5,20 +5,6 @@ Exercícios e anotações feitas por [João Pedro Monção](https://github.com/j
 
 ##
 
-## ⏩Executando
-
-```bash
-  python -m venv venv
-
-  venv/Scripts/Activate.ps1
-
-  pip install tkinter
-
-  cd C:/Users/seu-user/pasta-do-arquivo/main.py
-
-  python main.py
-```
-    
 ## 🧮Requisitos
 
 Para rodar esse projeto, você vai precisar:
