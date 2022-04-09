@@ -2,7 +2,7 @@ package somarnumero;
 
 import java.util.Scanner;
 
-public class SomarNumero {
+public class somarNumero {
 
     public static void main(String[] args) {
 
