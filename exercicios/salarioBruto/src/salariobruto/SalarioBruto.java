@@ -22,7 +22,7 @@ public class SalarioBruto {
         System.out.print("Digite o número de filhos menores de 15 anos: ");
         filhos = ler.nextInt();
         
-        System.out.println("Digite o valor do seu salário familiar: R$");
+        System.out.print("Digite o valor do seu salário familiar: R$");
         salFamiliar = ler.nextDouble();
         
         System.out.println(row);
