@@ -36,14 +36,11 @@ public class SalarioBruto {
         
         
         if (salTotal > 1500) {
-            double ir = 15 / 100;
-            System.out.println(salTotal * ir);
+            System.out.println(salBruto * 0.15);
         } else if (salTotal > 500 && salTotal <= 1500) {
-            double ir = 8 / 100;
-            System.out.println(salTotal * ir);
+            System.out.println(salBruto * 0.08);
         } else {
-            double ir = 0 / 100;
-            System.out.println(salTotal * ir);
+            System.out.println(salBruto * 0);
         }
     }
     
